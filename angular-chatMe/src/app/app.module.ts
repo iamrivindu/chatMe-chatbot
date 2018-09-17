@@ -8,11 +8,14 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { LoginService } from './services/login/login.service';
 import { HttpModule } from '@angular/http';
 import {SignupService} from './services/signup/signup.service';
+import { ChatComponent } from './chat/chat.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    SignUpComponent
+    SignUpComponent,
+    ChatComponent
   ],
   imports: [
     BrowserModule,
