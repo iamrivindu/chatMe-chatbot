@@ -5,8 +5,8 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class ChatService {
 
-   baseURL: string = "https://api.dialogflow.com/v1/query?v=20150910";
-   token: string = "63db21b6d636493ebd96662f21c3206d";
+   baseURL: string = 'https://api.dialogflow.com/v1/query?v=20150910';
+   token: string = '63db21b6d636493ebd96662f21c3206d';
 
   constructor(private http: Http){}
 
